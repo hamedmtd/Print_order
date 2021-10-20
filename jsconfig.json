@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "layout": [
+                "components/layout"
+            ],
+            "reuse": [
+                "components/reuse"
+            ],
+            "functions": [
+                "helper/functions"
+            ],
+            "xhr": [
+                "helper/xhr"
+            ],
+            "provider": [
+                "stores/providers"
+            ],
+        }
+    }
+}
