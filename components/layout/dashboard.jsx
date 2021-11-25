@@ -16,7 +16,7 @@ export default function Dashboard() {
         <div className={'flex p-3'}>
             <div className={'flex flex-1 p-3'}>
                 <div className={'flex flex-1 flex-col border rounded-md p-3'}>
-                    <span className={'flex my-2 font-bold text-primary-500'}>اخرین فعالیت ها</span>
+                    <span className={'flex my-2 font-bold text-blue-500'}>اخرین فعالیت ها</span>
                     <div className={'flex flex-col'}>
                         {state.data && state.data.map((item, index) => {
                             return (
@@ -47,23 +47,23 @@ export default function Dashboard() {
                 </div>
                 <div className={'flex flex-wrap mt-1'}>
                     <div className={'w-36 h-28 flex flex-col border m-1 rounded-md justify-center items-center p-3'}>
-                        <span className={'text-primary-500 text-lg font-bold'}>27</span>
+                        <span className={'text-blue-500 text-lg font-bold'}>27</span>
                         <span className={'text-text-500 text-sm mt-1'}>صف لیست چاپ</span>
                     </div>
                     <div className={'w-36 h-28 flex flex-col border m-1 rounded-md justify-center items-center p-3'}>
-                        <span className={'text-primary-500 text-lg font-bold'}>27</span>
+                        <span className={'text-blue-500 text-lg font-bold'}>27</span>
                         <span className={'text-text-500 text-sm mt-1'}>صف لیست چاپ</span>
                     </div>
                     <div className={'w-36 h-28 flex flex-col border m-1 rounded-md justify-center items-center p-3'}>
-                        <span className={'text-primary-500 text-lg font-bold'}>27</span>
+                        <span className={'text-blue-500 text-lg font-bold'}>27</span>
                         <span className={'text-text-500 text-sm mt-1'}>صف لیست چاپ</span>
                     </div>
                     <div className={'w-36 h-28 flex flex-col border m-1 rounded-md justify-center items-center p-3'}>
-                        <span className={'text-primary-500 text-lg font-bold'}>27</span>
+                        <span className={'text-blue-500 text-lg font-bold'}>27</span>
                         <span className={'text-text-500 text-sm mt-1'}>صف لیست چاپ</span>
                     </div>
                     <div className={'w-36 h-28 flex flex-col border m-1 rounded-md justify-center items-center p-3'}>
-                        <span className={'text-primary-500 text-lg font-bold'}>27</span>
+                        <span className={'text-blue-500 text-lg font-bold'}>27</span>
                         <span className={'text-text-500 text-sm mt-1'}>صف لیست چاپ</span>
                     </div>
                 </div>

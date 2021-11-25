@@ -48,7 +48,7 @@ export default function AddCustomer() {
                             /> */}
                             <SvgIcon type={'user'} />
                             <Button
-                                className={'h-10 px-3 rounded hover:bg-primary-500 hover:text-white bg-white text-primary-500 border border-primary-500 mr-3'}
+                                className={'h-10 px-3 rounded hover:bg-blue-500 hover:text-white bg-white text-blue-500 border border-blue-500 mr-3'}
                                 title={'آپلود عکس'}
                             />
                         </div>
@@ -236,12 +236,12 @@ export default function AddCustomer() {
                         </div>
                         <div className={'flex flex-1 justify-end mt-5'}>
                             <Button
-                                className={'h-10 w-20 flex justify-center hover:bg-gray-500 hover:text-white items-center text-sm border rounded text-primary-500 border-primary-500'}
+                                className={'h-10 w-20 flex justify-center hover:bg-gray-500 hover:text-white items-center text-sm border rounded text-blue-500 border-blue-500'}
                                 title={'انصراف'}
                             />
                             <Button
                                 type={'submit'}
-                                className={'h-10 w-20 flex justify-center hover:bg-white hover:border-primary-500 hover:text-primary-500 items-center text-sm border rounded bg-primary-500 text-white mr-2'}
+                                className={'h-10 w-20 flex justify-center hover:bg-white hover:border-blue-500 hover:text-blue-500 items-center text-sm border rounded bg-blue-500 text-white mr-2'}
                                 loading={state.loading}
                                 title={'ثبت'}
                             />

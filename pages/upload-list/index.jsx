@@ -14,7 +14,7 @@ export default function UploadList() {
                     <span className={'flex flex-1 text-text-500 font-sm'}>هنوز فایلی انتخاب نشده است</span>
                     <Button
                         title={'آپلود'}
-                        className={'h-10 w-20 flex justify-center items-center border rounded font-bold bg-primary-500 text-white'}
+                        className={'h-10 w-20 flex justify-center items-center border rounded font-bold bg-blue-500 text-white'}
                     />
                 </div>
             </div>

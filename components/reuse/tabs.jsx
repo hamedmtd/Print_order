@@ -12,15 +12,20 @@ export default function Tabs(props) {
         <ul className={ClassNames(ulClassName, 'flex flex-1 items-center')}>
             {tabList && Object.entries(tabList).map(([key, value], index) => {
                 return (
-                    <li key={index}
-                        className={ClassNames(liClassName, tabSelected === key && tabSelectedColor, 'cursor-pointer')}
-                        onClick={() => {
-                            setTabSelected(key)
-                            onSelect(key)
-                        }}
-                    >
-                        {value}
-                    </li>
+                    <div key={index} className={'flex justify-center relative'}>
+                        <li
+                            className={ClassNames(liClassName, tabSelected === key && tabSelectedColor, 'cursor-pointer')}
+                            onClick={() => {
+                                setTabSelected(key)
+                                onSelect(key)
+                            }}>
+                            {value}
+                        </li>
+                        {tabSelected === key &&
+                            <hr className={'absolute top-9 w-12 bg-blue-500 h-1 rounded-md'} />
+                        }
+                    </div>
+
                 )
             })}
         </ul>

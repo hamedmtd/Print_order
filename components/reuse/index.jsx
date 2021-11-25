@@ -1,5 +1,7 @@
+import UseOutsideAlerter from './UseOutsideAlerter'
 import RadioGroup from './radioGroup'
 import Container from './container'
+import Dropdown from './dropdown'
 import SvgIcon from './svg-icon'
 import Spinner from './spinner'
 import Button from './button'
@@ -16,6 +18,8 @@ export {
     Button,
     SvgIcon,
     Spinner,
+    Dropdown,
     Container,
     RadioGroup,
+    UseOutsideAlerter,
 }

@@ -10,21 +10,18 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-/* @font-face {
-    font-family: 'IRANSans';
-    src: url('../public/fonts/Shabnam.ttf') format('woff');
-    src: url('../public/fonts/Shabnam-Bold.ttf') format('woff');
+@font-face {
+    font-family: 'Shabnam';
+    src: url('../public/fonts/Shabnam.ttf') format('ttf');
+    src: url('../public/fonts/Shabnam-Bold.ttf') format('ttf');
 
-    src: url('../public/fonts/Shabnam-Bold.eot') format('eot');
+    /* src: url('../public/fonts/Shabnam-Bold.eot') format('eot');
     src: url('../public/fonts/Shabnam-Bold.woff') format('woff');
     src: url('../public/fonts/Shabnam-Bold.woff2') format('woff2');
     src: url('../public/fonts/Shabnam.eot') format('eot');
     src: url('../public/fonts/Shabnam.woff') format('woff');
-    src: url('../public/fonts/Shabnam.woff2') format('woff2');
-
-    src: url('../public/fonts/IRANSans/IRANSans.ttf') format('woff');
-    src: url('../public/fonts/IRANSans/IRANSans_Light.ttf') format('woff');
-} */
+    src: url('../public/fonts/Shabnam.woff2') format('woff2'); */
+}
 
 a {
   color: inherit;

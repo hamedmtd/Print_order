@@ -55,7 +55,7 @@ export default function Input(props) {
                         <textarea
                             name={'comment'}
                             rows={'4'}
-                            className={`shadow-sm focus:ring-${colors.primary}-500 focus:border-gray-200  mt-1 block w-full sm:text-smborder-gray-300 rounded-md`}
+                            className={`shadow-sm focus:ring-${colors.blue}-500 focus:border-gray-200  mt-1 block w-full sm:text-smborder-gray-300 rounded-md`}
                             placeholder={''}
                             {...props}
                         >
@@ -72,7 +72,7 @@ export default function Input(props) {
                             `h-10 block w-full rounded-md sm:text-sm`,
                             (icon || svg_icon) ? 'pl-10' : '',
                             is_password ? 'pr-10' : '',
-                            error ? 'border-red-300' : borderClass || 'border border-gray-300 focus:ring-0 focus:border-gray-200', // border-gray-300 ring-${colors.primary}-500
+                            error ? 'border-red-300' : borderClass || 'border border-gray-300 focus:ring-0 focus:border-gray-200', // border-gray-300 ring-${colors.blue}-500
                             error ? 'focus:ring-red-500 focus:border-red-200' : `focus:ring-0 focus:border-gray-200`,
                             className || ''
                         )}

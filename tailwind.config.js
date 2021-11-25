@@ -22,6 +22,22 @@ module.exports = {
     fontFamily: {
       primary: ['Open Sans', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
       secondary: ['proxima-nova', 'sans-serif'],
+    },
+    extend: {
+      colors: {
+        prim: {
+          50: '#4DCAAC',
+          100: '#4DCAAC',
+          200: '#4DCAAC',
+          300: '#4DCAAC',
+          400: '#4DCAAC',
+          500: '#4DCAAC',
+          600: '#4DCAAC',
+          700: '#4DCAAC',
+          800: '#4DCAAC',
+          900: '#4DCAAC',
+        }
+      }
     }
   },
   plugins: [
