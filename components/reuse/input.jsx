@@ -18,7 +18,7 @@ export default function Input(props) {
     }
 
     if (is_password) {
-        type = secure ? 'password' : 'text'
+        // type = secure ? 'password' : 'text'
     }
 
     return (

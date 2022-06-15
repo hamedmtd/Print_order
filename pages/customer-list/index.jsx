@@ -11,26 +11,26 @@ export default function CustomerList() {
         loading: false,
     })
 
-    useEffect(async () => {
-        state.loading = true
-        setState({ ...state })
-        const config = {
-            method: 'get',
-            url: 'http://185.252.29.104:3002/api/v1/customers',
-            headers: {
-                'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6eyJpZCI6MSwiaXNBY3RpdmUiOnRydWUsImlzQXJjaGl2ZWQiOmZhbHNlLCJjcmVhdGVkQnkiOm51bGwsImxhc3RDaGFuZ2VkQnkiOm51bGwsImRlbGV0ZWRCeSI6bnVsbCwiaW50ZXJuYWxDb21tZW50IjpudWxsLCJjcmVhdGVkQXQiOiIyMDIxLTA5LTAzVDIxOjQ1OjU3LjIxNloiLCJ1cGRhdGVkQXQiOiIyMDIxLTA5LTAzVDIxOjQ1OjU3LjIxNloiLCJkZWxldGVkQXQiOm51bGwsIm5hbWUiOiJBZG1pbiIsIl9fZW50aXR5IjoiUm9sZSJ9LCJpYXQiOjE2MzExOTQ4OTIsImV4cCI6MTYzMTI4MTI5Mn0.BkvCvFhuZuMqY_rs5rcwnRJGC9JZPTlKIuI0iXK--P8'
-            }
-        };
-        try {
-            const { data } = await axios(config)
-            if (data) {
-                state.data = data
-                state.loading = false
-                setState({ ...state })
-            }
-        } catch (error) {
-        }
-    }, [])
+    // useEffect(async () => {
+    //     state.loading = true
+    //     setState({ ...state })
+    //     const config = {
+    //         method: 'get',
+    //         url: 'http://185.252.29.104:3002/api/v1/customers',
+    //         headers: {
+    //             'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6eyJpZCI6MSwiaXNBY3RpdmUiOnRydWUsImlzQXJjaGl2ZWQiOmZhbHNlLCJjcmVhdGVkQnkiOm51bGwsImxhc3RDaGFuZ2VkQnkiOm51bGwsImRlbGV0ZWRCeSI6bnVsbCwiaW50ZXJuYWxDb21tZW50IjpudWxsLCJjcmVhdGVkQXQiOiIyMDIxLTA5LTAzVDIxOjQ1OjU3LjIxNloiLCJ1cGRhdGVkQXQiOiIyMDIxLTA5LTAzVDIxOjQ1OjU3LjIxNloiLCJkZWxldGVkQXQiOm51bGwsIm5hbWUiOiJBZG1pbiIsIl9fZW50aXR5IjoiUm9sZSJ9LCJpYXQiOjE2MzExOTQ4OTIsImV4cCI6MTYzMTI4MTI5Mn0.BkvCvFhuZuMqY_rs5rcwnRJGC9JZPTlKIuI0iXK--P8'
+    //         }
+    //     };
+    //     try {
+    //         const { data } = await axios(config)
+    //         if (data) {
+    //             state.data = data
+    //             state.loading = false
+    //             setState({ ...state })
+    //         }
+    //     } catch (error) {
+    //     }
+    // }, [])
 
     return (
         <>
@@ -42,7 +42,7 @@ export default function CustomerList() {
                         <input
                             className={'outline-none text-gray-500 w-full p-2'}
                             placeholder={'جستجو'}
-                            type={'serach'}
+                            type={'search'}
                         />
                     </div>
                     <div className={'flex flex-1 my-3'}>

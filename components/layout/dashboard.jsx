@@ -42,7 +42,7 @@ export default function Dashboard() {
                     <input
                         className={'outline-none text-gray-500 w-full p-2'}
                         placeholder={'جستجو'}
-                        type={'serach'}
+                        type={'search'}
                     />
                 </div>
                 <div className={'flex flex-wrap mt-1'}>
